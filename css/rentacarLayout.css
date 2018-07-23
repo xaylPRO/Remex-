@@ -1,0 +1,31 @@
+#rentacar {
+    margin-bottom: 4rem;
+}
+#rentacar h3 {
+    color: #0873af;
+    margin: 0;
+}
+#rentacar .row {
+    margin-top: 2rem;
+}
+#rentacar hr {
+    height: 1rem;
+    background-color: #0873af;
+}
+.boxModelOne {
+    color: #4c4c4c;
+    padding: 1rem;
+    border: 0.1rem solid  #0873af;
+}
+.boxModelOne h4 {
+    color: #0873af;
+    font-weight: bold;
+}
+.boxModelOne .col-6 img {
+    max-width: 100%;
+    min-width: 100%;
+}
+.boxModelOne a {
+    margin-top: 1rem;
+    width: 100%;
+}

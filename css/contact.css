@@ -1,0 +1,62 @@
+#contact {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+#contactForm {
+   margin: auto;
+   width: 65%;
+   background-color: white;
+   border-radius: 0.5rem;
+   padding: 0;
+   padding-bottom: 0;
+   color: #0873af;
+}
+#contactForm .row {
+    padding: 1rem;
+}
+.contactLabel {
+    font-weight: bold;
+    color: #0873af;
+    margin: 0;
+    padding: 0;
+}
+.contactInput {
+    width: 90%;
+    border: none;
+    border-bottom: 0.1rem solid #6f6f6f;
+    background-color: white;
+    margin: 0;
+    color: #6f6f6f;
+}
+.messageInput {
+    width: 90%;
+    border: none;
+    border-bottom: 0.1rem solid #6f6f6f;
+    border-top: 0.1rem solid #6f6f6f;
+    height: 6rem;
+    margin-top: 1.4rem;
+    background-color: white;
+    color: #6f6f6f;
+}
+#contactButton {
+    width: 100%;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+#title {
+    background-color: #0873af;
+    margin: 0;
+    width: 100%;
+    padding: 1rem;
+    color: white;
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    text-align: center;
+}
+#title h4 {
+    margin: 0;
+}

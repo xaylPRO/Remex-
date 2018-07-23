@@ -1,0 +1,15 @@
+img {
+    max-width: 100%;
+}
+#boxModelThree {
+    margin-bottom: 4rem;
+}
+#preview {
+    background-color: white;
+    margin-bottom: 4rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+#preview .row {
+    padding: 2rem;
+}

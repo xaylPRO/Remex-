@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    
+    <!-- Custom CSS -->
+    <link href="css/indexLayout.css" rel="stylesheet" type="text/css">
+    <link href="css/contact.css" rel="stylesheet" type="text/css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+    <title>Remex | Početna</title>
+  </head>
+  <body>
+    <!-- Location Map, hidden by default -->
+    <div id="map">
+        <div id="map-box">
+            <div id="title">
+                <h4>Lokacija <i class="fas fa-map-marker-alt"></i> <i id="closeMap" style="float: right" class="fas fa-times-circle activeIcon"></i></h4>
+            </div>
+                <div align="center" class="cont">
+                <div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Remex%20d.o.o.%20Tuzla&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.webdesign-muenchen-pb.de"></a></div><style>.mapouter{text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style><small><a href="http://www.elegantthemes.com/affiliates/idevaffiliate.php?id=28532&url=42158&tid1=google1" rel="nofollow"></a></small></div>
+                </div>
+        </div>
+    </div>
+    <!-- Map Section End -->
+    <!-- Admin LogIn Form, by default hidden -->
+        <div id="login">
+            <div id="login-box">
+                <div id="title">
+                    <h4>Prijavi se <i id="closeWindow" style="float: right" class="fas fa-times-circle activeIcon"></i></h4>
+                </div>
+                <form>
+                    <p class="loginLabel">Korisnički ID</p><br>
+                    <input class="loginInput" type="text" placeholder="npr. 5"><br><br>
+                    <p class="loginLabel">Šifra</p><br>
+                    <input class="loginInput" type="password" placeholder="********"><br><br>
+                    <input type="submit" class="btn btn-primary" id="loginButton" value="Prijava">
+                </form>
+            </div>
+        </div>
+    <!-- Login Form End -->
+    <!-- Site Header Start -->
+    <div id="header">
+            <!-- Top -->
+            <div id="top_header">
+                <div class="container">
+                <div class="row">
+                    <!-- Left -->
+                    <div class="col-10">
+                        <ul>
+                            <li class="passive"><i class="fas fa-clock"></i> Radno vrijeme:</li>
+                            <li>Od Ponedjeljka do petka: 8:00-18:00h</li>
+                            <li class="passive"><i class="fas fa-mobile"></i> 062/ 175-423</li>
+                            <li><i class="fas fa-envelope"></i> remex@mail.com</li>
+                            <li class="passive"><i id="showMap" class="fas fa-map-marker-alt activeIcon"></i></li>
+                        </ul>
+                    </div>
+                    <!-- Left End -->
+                    <!-- Right -->
+                    <div class="col-2">
+                        <!-- Social Media links -->
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-instagram"></i>
+                            <i id="showWindow" class="fas fa-user-lock activeIcon"></i>
+                        <!-- Social Media links End -->
+                    </div>
+                    <!-- Right End -->
+                    </div>
+                </div>
+            </div>
+            <!-- Top End -->
+            <!-- Bottom -->
+            <div id="bottom_header">
+                <div class="container">
+                    <div class="row">
+                        <!-- Site Logo Section -->
+                        <div id="siteLogo" class="col-4">
+                            <img src="assets/logo.png">
+                        </div>
+                        <!-- Site Logo End -->
+                        <!-- NavBar Section -->
+                        <div class="col-8">
+                            <nav>
+                                <ul>
+                                    <li><a href="#"><i class="fas fa-home"></i> Početna</a></li>
+                                    <div class="dropdown">
+                                            <button class="dropbtn">Zastupamo <i class="fas fa-chevron-down"></i></button>
+                                            <div class="dropdown-content">
+                                              <a href="#">Link 1</a>
+                                              <a href="#">Link 2</a>
+                                              <a href="#">Link 3</a>
+                                            </div>
+                                          </div>
+                                    <div class="dropdown">
+                                                <button class="dropbtn">Proizvodi <i class="fas fa-chevron-down"></i></button>
+                                                <div class="dropdown-content">
+                                                  <a href="#">Link 1</a>
+                                                  <a href="#">Link 2</a>
+                                                  <a href="#">Link 3</a>
+                                                </div>
+                                              </div>
+                                    <div class="dropdown">
+                                                    <button id="logo_button" class="dropbtn"><img src="assets/ford.png"> <img src="assets/kia.png"></button>
+                                                    <div class="dropdown-content">
+                                                      <a href="#">Link 1</a>
+                                                      <a href="#">Link 2</a>
+                                                      <a href="#">Link 3</a>
+                                                    </div>
+                                                  </div>
+                                                  <div class="dropdown">
+                                                        <button class="dropbtn">O nama</button>
+                                                      </div>
+                                                    <div class="dropdown">
+                                                            <button class="dropbtn">Kontakt</button>
+                                                    </div>
+                                </ul>
+                            </nav>
+                        </div>
+                        <!-- NavBar Section End -->
+                    </div>
+                </div>
+            </div>
+            <!-- Bottom End-->
+    </div>
+    <!-- Site Header End -->
+    <!-- Jumbotron Section Start -->
+    <div class="jumbotron jumbotron-fluid">
+          <div class="row">
+              <div id="gradevinarstvoRudarstvo" class="col">
+                <h1><span>Građevinarstvo i rudarstvo</span></h1>
+                <h4>Kompanija Remex d.o.o. je partner sa svjetskim kompanijama kao što je Cummins, te iz ponude izdvajamo:</h4>
+                <hr style="height: 1rem; background-color: #0873af;">
+                <h5><i class="fas fa-arrow-circle-right"></i> Mašine i oprema</h5>
+                <h5><i class="fas fa-arrow-circle-right"></i> Rezervni dijelovi</h5>
+                <h5><i class="fas fa-arrow-circle-right"></i> Servis</h5>
+              </div>
+              <div id="autosalon"  class="col">
+                  <h1>Auto salon</h1>
+                <h4>Također vršimo prodaju novih automobila, dijelova, te posjedujemo ovlašteni servis za navdene.</h4>
+                <br><br>
+                <a href="#" class="btn btn-success">Nudimo vam <i class="fas fa-car"></i></a>
+                <a href="#" class="btn btn-warning">Posijetite nas <i class="fas fa-map-marker-alt"></i></a>
+            </div>
+            <div id="servis" class="col">
+                <h1>Ovlašteni servis</h1>
+                <h4>Kompanija Remex d.o.o. je partner sa svjetskim kompanijama kao sto je Cummins, te iz ponude izdvajamo:</h4>
+                <br><br>
+                <a href="#" class="btn btn-success">Zakažite termin <i class="fas fa-calendar-alt"></i></a>
+            </div>
+            <div id="rentaCar" class="col">
+                <h1>Rent a car</h1>
+                <h4>Također nudimo i rent a car usluge</h4>
+                <br><br><br><br><br>
+                <a style="margin-top: 0.8rem;" href="#" class="btn btn-success">Rezervišite online <i class="fas fa-globe"></i></a>
+            </div>
+          </div>
+        </div>
+    <!-- Jumbotron Section End -->
+    <!-- MainContent Section -->
+    <div id="contact">
+        <div class="container">
+            <div id="contactForm">
+                <div id="title">
+                    <h4>Kontaktirajte nas</h4>
+                </div>
+            <form>
+                <div class="row">
+                    <div class="col">
+                        <p class="contactLabel">Ime</p><br>
+                        <input type="text" class="contactInput" placeholder="Unesite svoje ime..."><br><br>
+                        <p class="contactLabel">E-mail</p><br>
+                        <input type="email" class="contactInput" placeholder="mojemail@test.com"><br><br>
+                        <p class="contactLabel">Subjekat</p><br>
+                        <input type="text" class="contactInput" placeholder="Upit za lokaciju"><br>
+                    </div>
+                    <div class="col">
+                        <p class="contactLabel">Poruka</p><br>
+                        <textarea class="messageInput" placeholder="Moja poruka ovdje..."></textarea><br>
+                    </div>
+                </div>
+                <input type="submit" class="btn btn-warning" value="Pošalji" id="contactButton">
+            </form>
+        </div>
+        </div>
+    </div>
+    <!-- MainContent Section End -->
+    <!-- Footer -->
+    <div id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <!-- Social Media Links -->
+                    <p class="footerLabel">Društvene mreže</p>
+                    <i class="fab fa-facebook-square fa-2x"></i>
+                    <i class="fab fa-twitter-square fa-2x"></i>
+                    <i class="fab fa-instagram fa-2x"></i>
+                    <br><br>
+                    <p>&copy Copyright 2018 by Remex d.o.o. . All rights reserved. Designed and <i class="fas fa-code"></i> with <i style="color: red;" class="far fa-heart"></i>.</p>
+                </div>
+                <div class="col">
+                        <p class="footerLabel">Kontakt informacije</p>
+                        <p><b><i class="fas fa-map-marker-alt"></i> Adresa:</b> <i>Husinskih Rudara 351, Tuzla 75000</i></p>
+                        <p><b><i class="fas fa-phone-square"></i> Broj telefona:</b> <i>035 302-000</i></p>
+                        <p><b>@ E-mail:</b> <i>remex@mail.com</i></p>
+
+                </div>
+                <div class="col">
+                        <p class="footerLabel">Gdje se nalazimo?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer end -->
+    <a href="#0" id="backToTop" class="cd-top js-cd-top"><i class="fas fa-arrow-circle-up fa-3x"></i></a>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+    <script src="js/showDisplayElements.js"></script>
+    <script src="js/backToTop.js"></script>
+    </body>
+</html>

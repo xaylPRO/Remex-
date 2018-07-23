@@ -1,0 +1,57 @@
+#serviceForm {
+    
+    padding: 1rem;
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    margin-bottom: 2rem;
+    background-color: #6f6f6f;
+}
+#serviceContent h3 {
+    color: #0873af;
+}
+#serviceForm h4 {
+    margin-bottom: 2rem;
+    color: white;
+    font-weight: bold;
+}
+#serviceForm p {
+    float: right;
+}
+#serviceForm .col {
+    padding: 1rem;
+}
+.serviceLabel {
+    font-weight: bold;
+    color: white;
+    font-size: 1.5em;
+}
+.serviceInput {
+    border: none;
+    background-color: #4c4c4c;
+    border-bottom: 0.1rem solid #FFC108;
+    color: white;
+}
+#infoService {
+    background-color: white;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+#infoService img {
+    height: inherit;
+}
+#infoService .col-8 {
+    padding: 2rem;
+    color: #4c4c4c;
+}
+#title {
+    width: 100%;
+    text-align: center;
+    background-color: #0873af;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+#title h3 {
+    margin-bottom: 2rem;
+    font-weight: bold;
+    color: white;
+}
